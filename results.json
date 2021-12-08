@@ -11,18 +11,32 @@
       "test": "test parse_file/1 parses the file"
     },
     {
-      "describe": "build/1",
+      "describe": "build_from_many/1",
       "file": "/home/idd_vguimaraes/personal-projects/elixir/elixir-challenge-relatory/test/gen_report_test.exs",
-      "line": 10,
+      "line": 31,
       "module": "Elixir.GenReportTest",
-      "test": "test build/1 When passing file name return a report"
+      "test": "test build_from_many/1 When a invalid data was given return an erro"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/home/idd_vguimaraes/personal-projects/elixir/elixir-challenge-relatory/test/gen_report_test.exs",
+      "line": 25,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When apssing a list of files return a report"
     },
     {
       "describe": "build/1",
       "file": "/home/idd_vguimaraes/personal-projects/elixir/elixir-challenge-relatory/test/gen_report_test.exs",
-      "line": 16,
+      "line": 17,
       "module": "Elixir.GenReportTest",
       "test": "test build/1 When no filename was given, returns an error"
+    },
+    {
+      "describe": "build/1",
+      "file": "/home/idd_vguimaraes/personal-projects/elixir/elixir-challenge-relatory/test/gen_report_test.exs",
+      "line": 11,
+      "module": "Elixir.GenReportTest",
+      "test": "test build/1 When passing file name return a report"
     }
   ],
   "skiped": []
